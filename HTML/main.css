@@ -1,0 +1,117 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+img {
+    max-width: 100%; /*fazendo a mesma imagem acompanhar o tamnho de displays diferentes*/
+}
+#menu ul {
+    padding: 0px; /*Nesta parte eu zerei o espaço entre os elementos*/
+    margin: 0px;  /*Nesta parte eu zerei a margin dos elementos*/
+    float: center;
+    width: 100%;
+    background-color: #ada9a9;
+    list-style-type: none;
+    font: 100% Roboto; /*Definindo o tamanho e estilo da fonte*/
+    text-align: center; /*centralizando o menu*/
+    
+}
+
+#menu ul li { display: inline-block;} /*Nesta parte estou colocando os li um do lado do outro*/
+
+#menu ul li a {
+    background-color: #ada9a9; /*Definindo backgroud */
+    color: #333; /*definidno a cor do texto*/
+    text-decoration: none;
+    border-bottom: 2px solid #ada9a9; /*Adiconando uma pequna borda em baixo dos li*/
+    padding: 4px 15px; 
+    float: left;
+}
+
+/*Abaixo irei adicionar um evento para quando o usuario passar o mous sobre os elementos ul li e a*/
+#menu ul li a:hover {
+    background-color: #D6D6D6;
+    color: #6D6D6D; /*Quando o usuario passar o mouse sobre os elementos a fonte ficara cinza*/
+    border-bottom: 2px solid #EA0000; /*Quando o usuario passar o mouse a borda de baixo ficara com 3ox e mudara de cinza para vermelho*/
+    float: center;  
+     
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+
+/*BANNER da pagina*/
+.banner{                /*para alinhar imagem ao centro eu preciso colocar o postion relative para a img se refenciar nele*/
+    position: relative;
+}
+.banner img{
+    padding-top: 10px; /*Distanciando da img para o menu*/
+    display: block; 
+    margin-left: auto;
+    margin-right: auto }
+    
+/*POSTS*/
+.post_1 img{
+    padding-top: 10px; /*Distanciando da img para o menu*/
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#h3_post {
+    text-align: center;
+    background: rgb(189, 183, 183);
+}
+
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none; /*Tirando o sublinhado do link*/
+    color: inherit; /*Removendo a cor do link*/ 
+}
+.Post_atalho img {
+    padding-top: 0px; /*Distanciando da img para o menu*/
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.Post_atalho h3 {
+    background-color: rgb(189, 183, 183);
+}
+
+#h3_post2 {
+    text-align: center;
+    background: rgb(189, 183, 183);
+}
+
+.contact {
+    display: inline-block;
+}
+
+.contact h3 {
+    float: left;
+}
+
+.contact img {
+    float: right;
+    margin-top: 9px;
+    padding: 10px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30px;
+    height: 30px;
+}
+.align_img img{
+    padding-top: 0px; /*Distanciando da img para o menu*/
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
